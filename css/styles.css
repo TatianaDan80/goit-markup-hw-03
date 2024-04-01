@@ -44,6 +44,7 @@ ol {
 
 .navigation {
   display: flex;
+  margin-right: auto;
   align-items: center;
 }
 
@@ -60,6 +61,7 @@ ol {
 
 .logo-part {
   color: #2e2f42;
+  font-family: "Raleway", sans-serif;
 }
 
 .nav-list {
@@ -85,12 +87,13 @@ ol {
 
 .address {
   font-style: normal;
-  margin-left: auto;
+  display: flex;
 }
 
 .adres-list {
   display: flex;
   gap: 40px;
+  margin-left: auto;
 }
 
 .adress-link {
