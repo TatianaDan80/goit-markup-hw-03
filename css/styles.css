@@ -108,10 +108,6 @@ ol {
   color: #404bbf;
 }
 
-.img {
-  display: block;
-}
-
 /*-----hero------*/
 
 .hero {
@@ -155,12 +151,20 @@ button {
   background: #404bbf;
 }
 
+.img {
+  display: block;
+}
+
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
 /*----features--------*/
+
+.container {
+  border-top: none;
+}
 
 .visually-hidden {
   position: absolute;
@@ -174,6 +178,7 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
 .features {
   background-color: #fff;
   padding-top: 120px;
