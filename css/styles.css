@@ -29,7 +29,7 @@ ol {
 }
 .container {
   width: 1158px;
-  padding-left: 0 15px;
+  padding: 0 15px;
   margin: 0 auto;
 }
 
@@ -112,8 +112,9 @@ ol {
 /*-----hero------*/
 
 .hero {
-  background-color: #2e2f42;
-  padding: 188px 472px 188px 188px;
+background-color: #2e2f42;
+ padding-top: 188px; 
+padding-bottom: 188px;
 }
 
 .hero-title {
@@ -132,13 +133,13 @@ ol {
 button {
   cursor: pointer;
   border-radius: 4px;
-  width: 169px;
+  min-width: 169px;
   height: 56px;
   background: #4d5ae5;
   font: "Roboto";
   letter-spacing: 0.04em;
   color: #fff;
-
+  border: none;
   display: block;
   margin: 0 auto;
 }
@@ -151,19 +152,19 @@ button {
   background: #404bbf;
 }
 
-.visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  overflow: hidden;
-  white-space: nowrap;
-}
-
 .section {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
 /*----features--------*/
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  overflow: hidden;
+  white-space: nowrap;
+}
 
 .features {
   background-color: #fff;
@@ -183,6 +184,7 @@ button {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .features-item-title {
@@ -212,13 +214,14 @@ button {
 
 .portfolio-imag {
   display: flex;
-  row-gap: 24px;
+  gap: 24px;
   width: calc((100% -3 * 24px) / 4);
   border-radius: 0 0 4px 4px;
 }
 
 .portfolio-img-list {
   background: #fff;
+  margin-right: 0;
   margin: auto;
   margin-bottom: 32px;
 }
@@ -275,11 +278,12 @@ button {
 }
 
 .funkcional-menu-list {
-  width: calc((100%-2 * 24px) / 3);
+  width: calc((100%-2 * 48px) / 3);
+  padding: 32px 16px
   border-radius: border: 1px solid #e7e9fc;
-  
-
-}
+  border-top: none;
+  margin-bottom: 8px
+  }
 
 .funkcional-subtitle {
   font-weight: 500;
@@ -303,8 +307,7 @@ button {
 
 .footer-f {
 background: #2e2f42;
-width: 1440px;
-height: 312px;
+padding: 100px 0;
 }
 
 .logo {
@@ -320,7 +323,8 @@ height: 312px;
 
 .logo-ft {
   color: #f4f4fd;
-  
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-f-tx {
@@ -328,4 +332,5 @@ height: 312px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  max-width: 264px;
 }
