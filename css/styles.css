@@ -106,15 +106,15 @@ ol {
 }
 
 .img {
-  display:block ;
+  display: block;
 }
 
 /*-----hero------*/
 
 .hero {
-background-color: #2e2f42;
- padding-top: 188px; 
-padding-bottom: 188px;
+  background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -160,12 +160,17 @@ button {
 /*----features--------*/
 
 .visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
   white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
-
 .features {
   background-color: #fff;
   padding-top: 120px;
@@ -198,6 +203,12 @@ button {
 
 .portfolio {
   background-color: #f4f4fd;
+  padding: 120px 0;
+}
+
+.ourteam-cnt-list {
+  text-align: center;
+  padding: 32px 0;
 }
 
 .portfolio-title {
@@ -215,16 +226,14 @@ button {
 .portfolio-imag {
   display: flex;
   gap: 24px;
-  width: calc((100% -3 * 24px) / 4);
-  border-radius: 0 0 4px 4px;
 }
 
 .portfolio-img-list {
   background: #fff;
-  margin-right: 0;
-  margin: auto;
-  margin-bottom: 32px;
+  width: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
+
 .test-image {
   margin: auto;
 }
@@ -232,10 +241,11 @@ button {
 .portfolio-name {
   font-weight: 500;
   font-size: 20px;
-  line-height: 120%;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-align: center;
+  margin-bottom: 8px;
 }
 
 .portfolio-name-text {
@@ -250,6 +260,15 @@ button {
 /*-----funktional--------*/
 
 .funkcional {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.portfolio-container {
+  padding: 32px 16px;
+  border-top: none;
+  border: 1px solid #e7e9fc;
 }
 
 .funkcional-title {
@@ -261,13 +280,17 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .funkcional-image {
   background: #fff;
   margin: auto;
   margin-bottom: 32px;
+}
+.ourteam-cnt-list {
+  text-align: center;
+  padding: 32px 0;
 }
 
 .funkcional-menu {
@@ -278,12 +301,8 @@ button {
 }
 
 .funkcional-menu-list {
-  width: calc((100%-2 * 48px) / 3);
-  padding: 32px 16px
-  border-radius: border: 1px solid #e7e9fc;
-  border-top: none;
-  margin-bottom: 8px
-  }
+  width: calc((100% - 48px) / 3);
+}
 
 .funkcional-subtitle {
   font-weight: 500;
@@ -291,7 +310,7 @@ button {
   line-height: 120%;
   letter-spacing: 0.02em;
   color: #2e2f42;
-  padding-left: 16px;
+  margin-bottom: 8px;
 }
 
 .funkcional-menu-list-text {
@@ -306,10 +325,13 @@ button {
 /*----footer------*/
 
 .footer-f {
-background: #2e2f42;
-padding: 100px 0;
+  background: #2e2f42;
+  padding: 100px 0;
 }
 
+.footer-title {
+  display: block;
+}
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -318,16 +340,17 @@ padding: 100px 0;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
- 
-}
-
-.logo-ft {
-  color: #f4f4fd;
   display: inline-block;
   margin-bottom: 16px;
 }
 
+.logo-ft {
+  color: #f4f4fd;
+  padding: 100px 0;
+}
+
 .footer-f-tx {
+  font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
