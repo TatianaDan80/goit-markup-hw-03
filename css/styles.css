@@ -93,7 +93,6 @@ ol {
 .adres-list {
   display: flex;
   gap: 40px;
-  margin-left: auto;
 }
 
 .adress-link {
@@ -151,7 +150,7 @@ button {
   background: #404bbf;
 }
 
-.img {
+img {
   display: block;
 }
 
@@ -273,9 +272,9 @@ button {
 }
 
 .portfolio-container {
-  padding: 32px 16px;
-  border-top: none;
   border: 1px solid #e7e9fc;
+  border-top: none;
+  padding: 32px 16px;
 }
 
 .funkcional-title {
