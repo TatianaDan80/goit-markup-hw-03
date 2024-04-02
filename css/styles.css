@@ -21,9 +21,6 @@ a {
 ul,
 ol {
   list-style: none;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 0;
   padding: 0;
   margin: 0;
 }
@@ -44,7 +41,6 @@ ol {
 
 .navigation {
   display: flex;
-  margin-right: auto;
   align-items: center;
 }
 
@@ -87,7 +83,7 @@ ol {
 
 .address {
   font-style: normal;
-  display: flex;
+  margin-left: auto;
 }
 
 .address-list {
