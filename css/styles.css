@@ -180,8 +180,6 @@ img {
 
 .features {
   background-color: #fff;
-  padding-top: 120px;
-  padding-bottom: 120px;
   display: flex;
   gap: 24px;
 }
@@ -292,7 +290,6 @@ img {
 .funkcional-image {
   background: #fff;
   margin: auto;
-  margin-bottom: 32px;
 }
 .ourteam-cnt-list {
   text-align: center;
