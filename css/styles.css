@@ -90,12 +90,12 @@ ol {
   display: flex;
 }
 
-.adress-list {
+.address-list {
   display: flex;
   gap: 40px;
 }
 
-.adress-link {
+.address-link {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
